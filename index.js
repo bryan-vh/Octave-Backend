@@ -12,8 +12,8 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-let CLIENT_ID = 'ab53dc0007b34a1f9960b3e09715875d';
-let CLIENT_SECRET = '27d14e69cbfb41e1bdb1b4e9eee9a705';
+let CLIENT_ID = 'CLIENT_ID';
+let CLIENT_SECRET = 'CLIENT_SECRET';
 let REDIRECT_URI = 'http://localhost:3000/';
 
 var storage = multer.diskStorage({
